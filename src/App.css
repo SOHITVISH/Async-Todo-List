@@ -1,0 +1,76 @@
+.container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.input1{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+.input1:focus {
+  outline: none; 
+  border-color: #007bff; 
+}
+.add-button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it inline */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  transition-duration: 0.4s; /* Smooth transition */
+}
+
+.add-button:hover {
+  background-color: #035b07; /* Darker green on hover */
+}
+
+.List{
+  color: #ffffff;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.listData{
+  font-weight: bold;
+  font-size: large;
+}
+.btn2{
+  display: inline-block;
+  border: none;
+border: radius 30%;
+background-image: linear-gradient(to right,#83d0c7 ,#1d1d1d);
+  padding: 8px 16px; /* Adjust padding as needed */
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.btn2:hover {
+  background-color: #035b07; /* Darker green on hover */
+}
+.removeallbtn{
+   display: inline-block;
+  border: none;
+ border: radius 30%;
+ background-image: linear-gradient(to right,#83d0c7 ,#1d1d1d);
+  padding: 8px 16px; /* Adjust padding as needed */
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+
+}
